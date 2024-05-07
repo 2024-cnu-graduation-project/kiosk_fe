@@ -57,9 +57,10 @@ body {
 }
 
 
-.menu-option {
+.menu-option {  
     display: flex;
     justify-content: center;
+    color: #28364B;
 }
 
 .menu-option-item {
