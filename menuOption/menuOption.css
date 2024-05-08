@@ -1,0 +1,140 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.material-symbols-outlined {
+    font-size: 80px;
+    color: #28364B;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.menu-image {
+    width: 126.5px;
+    height: 135.8px;
+    border-radius: 25px;
+    background-color: burlywood;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+.menu-info {
+    width: 575px;
+    height: 135.8px;
+    border-radius: 20px;
+    background-color: #EBEFF2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-name {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #28364B;
+    padding-left: 30px;
+}
+
+.menu-amount {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #28364B;
+    padding-left: 30px;
+}
+
+.menu-price {
+    margin-top: 15px;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #28364B;
+    padding-right: 30px;
+}
+
+
+.menu-option {  
+    display: flex;
+    justify-content: center;
+    color: #28364B;
+}
+
+.menu-option-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    height: 128px;
+}
+
+.menu-option-title {
+    background-color: #CACFD8;
+    width: 50px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 70px;
+}
+
+.menu-option-name {
+    writing-mode: vertical-rl;
+}
+
+.menu-option-select-box{
+    width: 250px;
+    border-radius: 20px;
+    background-color: #EBEFF2;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 30px;
+}
+.menu-option-select-box.selected {
+    width: 250px;
+    border-radius: 20px;
+    background-color: #28364B;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 30px;
+}
+
+
+.menu-option-image { 
+    width: 126px;
+    height: 70px;
+    border-radius: 25px;
+    background-color: burlywood;
+    margin-right: 15px;
+    background-size: cover;
+    margin: 15px auto;
+}
+
+
+
+
+.chat-parent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.chat {
+    width: 701px;
+    border: 2px solid;
+    border-color: #28364B;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #28364B;
+}
+
+.mic-parent {
+    display: flex;
+    justify-content: center;
+}
