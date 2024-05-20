@@ -1,0 +1,26 @@
+/* 모든 요소에 보더와 패딩을 포함한 전체 크기 계산 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 95vh; /* 화면 전체 높이 */
+    margin: 0; /* 기본 여백 제거 */
+    overflow: hidden; /* 스크롤 막기 */
+}
+
+.material-icons {
+    margin: 0; /* 기본 여백 제거 */
+    font-size: 200px;
+    color: #28364B;
+}
+
+h1 {
+    color: #28364B;
+    line-height: 1.6; /* 텍스트 줄 간격 조정 */
+}
