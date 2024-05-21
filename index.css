@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 95vh; /* 화면 전체 높이 */
+    margin: 0; /* 기본 여백 제거 */
+    overflow: hidden; /* 스크롤 막기 */
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EBEFF2;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.mic, .touch {
+    font-size: 200px;
+    margin-bottom: 30px;
+    color: #28364B;
+}
+
+.text {
+    font-size: 30px;
+    color: #28364B;
+}
