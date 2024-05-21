@@ -1,7 +1,7 @@
 // Dummy data for ordered drinks
 const orderedDrinks = [
-    { name: "아메리카노", type: "따뜻한", image: "./assets/americano.png", shot: 2, syrup: true, cups: 2},
-    { name: "바닐라라떼", type: "시원한", image: "./assets/vanillaLatte.png", shot: 2, syrup: false, whipping: true, cups: 1},
+    { name: "아메리카노", type: "따뜻한", image: "../assets/americano.png", shot: 2, syrup: true, cups: 2},
+    { name: "바닐라라떼", type: "시원한", image: "../assets/vanillaLatte.png", shot: 2, syrup: false, whipping: true, cups: 1},
 ];
 
 const orderedDrinksContainer = document.getElementById("orderedDrinksContainer");
@@ -23,9 +23,9 @@ orderedDrinks.forEach((drink, index) => {
     // 차가운 거, 뜨거운 거
     const drinkTypeImage = document.createElement("img");
     if (drink.type === "따뜻한") {
-        drinkTypeImage.src = "./assets/hot.png"; // 따뜻한 음료이면 hot.png
+        drinkTypeImage.src = "../assets/hot.png"; // 따뜻한 음료이면 hot.png
     } else if (drink.type === "시원한") {
-        drinkTypeImage.src = "./assets/cold.png"; // 시원한 음료이면 cold.png
+        drinkTypeImage.src = "../assets/cold.png"; // 시원한 음료이면 cold.png
     }
     drinkTypeImage.width = 100;
     drinkTypeImage.height = 100;
@@ -33,7 +33,7 @@ orderedDrinks.forEach((drink, index) => {
 
     // 샷 개수(추후 샷 개수에 따른 이미지 생성 필요)
     const shotsImage = document.createElement("img");
-    shotsImage.src = `./assets/${drink.shot}shot.png`;
+    shotsImage.src = `../assets/${drink.shot}shot.png`;
     shotsImage.width = 100;
     shotsImage.height = 100;
     drinkContainer.appendChild(shotsImage);
@@ -41,7 +41,7 @@ orderedDrinks.forEach((drink, index) => {
     // 시럽 추가
     const syrupImage = document.createElement("img");
     if (drink.syrup) {
-        syrupImage.src = "./assets/syrup.png";
+        syrupImage.src = "../assets/syrup.png";
         syrupImage.width = 100;
         syrupImage.height = 100;
         drinkContainer.appendChild(syrupImage);
@@ -50,7 +50,7 @@ orderedDrinks.forEach((drink, index) => {
     // 휘핑 추가
     const whippingImage = document.createElement("img");
     if (drink.whipping) {
-        whippingImage.src = "./assets/whipping.png";
+        whippingImage.src = "../assets/whipping.png";
         whippingImage.width = 100;
         whippingImage.height = 100;
         drinkContainer.appendChild(whippingImage);
@@ -58,7 +58,7 @@ orderedDrinks.forEach((drink, index) => {
     
     // 잔 개수(추후 잔 개수에 따른 이미지 생성 필요)
     const cupsImage = document.createElement("img");
-    cupsImage.src = `./assets/${drink.cups}cup.png`;
+    cupsImage.src = `../assets/${drink.cups}cup.png`;
     cupsImage.width = 100;
     cupsImage.height = 100;
     drinkContainer.appendChild(cupsImage);
