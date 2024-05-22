@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+        <link href="search.css" rel="stylesheet">
+        <script src="search.js" defer></script>
+        <title>메뉴 검색</title>
+    </head>
+    <body>
+        <div class="title">
+            <h1>초콜릿 메뉴</h1>
+        </div>
+
+        <div class="menu-list">
+            <div class="menu">
+                <div class="menu-image" style="background-image: url('https://i.pinimg.com/564x/bc/0c/ff/bc0cffc8b21c24b4b571e98b9ab5da12.jpg');"></div>
+                <div class="menu-info">
+                    <div class="menu-name-list">
+                        <p class="menu-name">초콜릿 라떼</p>
+                        <p class="menu-amount">250ml</p>
+                    </div>
+                    <div class="menu-price">
+                        <p class="price">4000원</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="menu-image" style="background-image: url('https://i.pinimg.com/736x/c0/85/5f/c0855f7cc3c83eaee8404196862f7e7a.jpg');"></div>
+                <div class="menu-info">
+                    <div class="menu-name-list">
+                        <p class="menu-name">핫초코</p>
+                        <p class="menu-amount">250ml</p>
+                    </div>
+                    <div class="menu-price">
+                        <p class="price">4000원</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-parent">
+            <div class="chat">
+                <p>메뉴를 고르셨다면 눌러서 말씀해주세요</p>
+            </div>
+        </div>
+    
+        <div class="mic-parent" onclick="changeIcon()">
+            <div id="mic">
+                <i class="material-icons">mic</i>
+            </div>
+        </div>
+
+    </body>
