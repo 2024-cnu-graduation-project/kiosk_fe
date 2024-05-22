@@ -83,3 +83,16 @@ orderedDrinks.forEach((drink, index) => {
         orderedDrinksContainer.appendChild(horizontalLine);
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const menuAddButton = document.querySelector('.menu-add-button');
+    const paymentButton = document.querySelector('.payment-button');
+
+    menuAddButton.addEventListener('click', () => {
+        window.location.href = '../popularMenu/popularMenu.html';
+    });
+
+    paymentButton.addEventListener('click', () => {
+        window.location.href = '../payment/payment.html';
+    });
+});
