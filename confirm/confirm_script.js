@@ -3,6 +3,9 @@ const orderedDrinks = [
     { name: "아메리카노", type: "따뜻한", image: "../assets/americano.png", shot: 2, syrup: true, cups: 2},
     { name: "바닐라라떼", type: "시원한", image: "../assets/vanillaLatte.png", shot: 2, syrup: false, whipping: true, cups: 1},
 ];
+let confirm_voice = new Audio('../voice/confirm.mp3');
+confirm_voice.play();
+
 
 const orderedDrinksContainer = document.getElementById("orderedDrinksContainer");
 

@@ -3,6 +3,8 @@ console.log($btn)
 let isRecording = false;
 let mediaRecorder = null;
 const audioArray = [];
+let menuOption_voice = new Audio('../voice/menuOption.mp3');
+menuOption_voice.play();
 
 $btn.onclick = async function (event) {
     if (!isRecording) {
@@ -62,6 +64,5 @@ $btn.onclick = async function (event) {
         mediaRecorder.stop();
         isRecording = false;
     }
-    
 };
 
