@@ -1,140 +1,73 @@
 body {
-    font-family: "Inter", sans-serif;
-}
-
-.material-symbols-outlined {
-    font-size: 80px;
-    color: #28364B;
-}
-
-.menu {
     display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
-}
-
-.menu-image {
-    width: 126.5px;
-    height: 135.8px;
-    border-radius: 25px;
-    background-color: burlywood;
-    margin-right: 15px;
-    background-size: cover;
-}
-
-.menu-info {
-    width: 575px;
-    height: 135.8px;
-    border-radius: 20px;
-    background-color: #EBEFF2;
-    display: flex;
-    justify-content: space-between;
-}
-
-.menu-name {
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: #28364B;
-    padding-left: 30px;
-}
-
-.menu-amount {
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: #28364B;
-    padding-left: 30px;
-}
-
-.menu-price {
-    margin-top: 15px;
-}
-
-.price {
-    font-size: 1.8rem;
-    font-weight: 400;
-    color: #28364B;
-    padding-right: 30px;
-}
-
-
-.menu-option {  
-    display: flex;
-    justify-content: center;
-    color: #28364B;
-}
-
-.menu-option-item {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
-    height: 128px;
-}
-
-.menu-option-title {
-    background-color: #CACFD8;
-    width: 50px;
-    font-size: 1.3rem;
-    border-radius: 30px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-right: 70px;
-}
-
-.menu-option-name {
-    writing-mode: vertical-rl;
-}
-
-.menu-option-select-box{
-    width: 250px;
-    border-radius: 20px;
-    background-color: #EBEFF2;
     flex-direction: column;
-    text-align: center;
-    margin-right: 30px;
-}
-.menu-option-select-box.selected {
-    width: 250px;
-    border-radius: 20px;
-    background-color: #28364B;
-    color: white;
-    flex-direction: column;
-    text-align: center;
-    margin-right: 30px;
-}
-
-
-.menu-option-image { 
-    width: 126px;
-    height: 70px;
-    border-radius: 25px;
-    background-color: burlywood;
-    margin-right: 15px;
-    background-size: cover;
-    margin: 15px auto;
-}
-
-
-
-
-.chat-parent {
-    display: flex;
     justify-content: center;
+    align-items: center;
+    height: 85vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-top: 0px;
     margin-bottom: 50px;
 }
-
-.chat {
-    width: 701px;
-    border: 2px solid;
-    border-color: #28364B;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: #28364B;
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
-.mic-parent {
-    display: flex;
-    justify-content: center;
+input.cold-button,
+input.hot-button,
+input.add-noshot-button,
+input.add-shot-button,
+input.add-syrup-button,
+input.add-whipping-button,
+input.quantity-button {
+    width: 265px;
+    height: 129.5px;
+    border: none;
+    margin: 20px;
+}
+
+input.cold-button {
+    background: url("../assets/unselected_cold.png") no-repeat;
+    background-size: contain;
+}
+
+input.hot-button {
+    background: url("../assets/unselected_hot.png") no-repeat;
+    background-size: contain;
+}
+
+input.add-noshot-button {
+    background: url("../assets/unselected_noshot.png") no-repeat;
+    background-size: contain;
+}
+
+input.add-shot-button {
+    background: url("../assets/unselected_1shot.png") no-repeat;
+    background-size: contain;
+}
+
+input.add-syrup-button {
+    background: url("../assets/unselected_syrup.png") no-repeat;
+    background-size: contain;
+}
+
+input.add-whipping-button {
+    background: url("../assets/unselected_whipping.png") no-repeat;
+    background-size: contain;
+}
+
+input.quantity-button {
+    background: url("../assets/quantity_1.png") no-repeat;
+    background-size: contain;
+}
+
+.single-button-container {
+    justify-content: flex-start;
+    width: 630px;
 }
