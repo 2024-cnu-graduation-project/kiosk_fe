@@ -87,3 +87,10 @@ $btn.onclick = async function (event) {
     
 };
 
+function audioPlay() {
+    const $audio = document.getElementById("audio");
+    $audio.src = '../voice/1.mp3';
+    $audio.play();
+}
+
+audioPlay();
