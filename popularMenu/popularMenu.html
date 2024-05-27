@@ -9,8 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link href="popularMenu.css" rel="stylesheet">
-    <!-- <script src="popularMenu.js" defer></script> -->
-    
+    <script src="popularMenu.js" defer></script>
     <title>kiosk_fe</title>
 </head>
 <body>
@@ -78,11 +77,12 @@
         </div>
     </div>
 
-    <div class="mic-parent">
+    <div class="mic-parent" onclick="changeIcon()">
         <div id="mic">
             <i class="material-icons">mic</i>
         </div>
     </div>
+    <audio id="audio" controls></audio>
     <script src="../page.js"></script>
 </body>
 </html>
