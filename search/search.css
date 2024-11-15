@@ -1,0 +1,90 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #28364B;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.menu-list {
+    margin-bottom: 350px;
+}
+
+.menu-image {
+    width: 126.5px;
+    height: 135.8px;
+    border-radius: 25px;
+    background-color: burlywood;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+.menu-info {
+    width: 575px;
+    height: 135.8px;
+    border-radius: 20px;
+    background-color: #EBEFF2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-name {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #28364B;
+    padding-left: 30px;
+}
+
+.menu-amount {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #28364B;
+    padding-left: 30px;
+}
+
+.menu-price {
+    margin-top: 15px;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #28364B;
+    padding-right: 30px;
+}
+
+.chat-parent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.chat {
+    width: 701px;
+    border: 2px solid;
+    border-color: #28364B;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #28364B;
+}
+
+.mic-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.material-icons {
+    font-size: 80px;
+    color: #28364B;
+}
